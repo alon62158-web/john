@@ -1,0 +1,241 @@
+[code.html](https://github.com/user-attachments/files/22580511/code.html)
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>𝙠𝙚𝙫𝙞𝙣 𝙖𝙡𝙤𝙣</title>
+    <link rel="stylesheet" href="style.css">.
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body  class="min-h-screen bg-background text-foreground font-sans">
+    <video autoplay muted loop id="bg-video">
+  <source src="kelly.mp4" type="video/mp4">
+</video>
+ <!-- Navigation -->
+    <nav class="fixed top-0 left-0 right-0 bg-background/80 white-blur-sm border-b border-border z-10">
+        <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <div class="text-xl font-bold">𝙠𝙚𝙫𝙞𝙣 𝙖𝙡𝙤𝙣</div>
+            <div class="hidden md:flex space-x-6">
+                <a href="#about" class="hover:text-primary transition-colors">About</a>
+                <a href="#skills" class="hover:text-primary transition-colors">Skills</a>
+                <a href="#projects" class="hover:text-primary transition-colors">Projects</a>
+                <a href="#contact" class="hover:text-primary transition-colors">Contact</a>
+            </div>
+            <button class="md:hidden">Menu</button>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="pt-20 pb-16">
+        <!-- Hero Section -->
+        <section id="about" class="container mx-auto px-4 py-16 flex flex-col md:flex-row items-center">
+            <div class="w-full md:w-1/2 mb-8 md:mb-0">
+                <h1 class="text-4xl md:text-5xl font-bold mb-4">𝙠𝙚𝙫𝙞𝙣 𝙖𝙡𝙤𝙣</h1>
+                <h2 class="text-xl md:text-2xl text-muted-foreground mb-6">Frontend Developer & UI Designer</h2>
+                <p class="text-lg mb-8">
+                    I create beautiful, functional, and accessible web experiences with React and modern web technologies.
+                </p>
+                <button class="bg-primary text-primary-foreground px-6 py-3 rounded-md font-medium hover:bg-primary/90 transition-colors">
+                    View My Work
+                </button>
+            </div>
+            <div class="w-full md:w-1/2 flex justify-center">
+                <div class="w-64 h-64 rounded-full overflow-hidden border-4 border-primary">
+                    <img  src="c:\Users\Admin\Downloads\john.jpg" alt="">
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="bg-muted py-16">
+            <div class="container mx-auto px-4">
+                <h2 class="text-3xl font-bold text-center mb-12">Skills & Expertise</h2>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <div class="bg-background p-6 rounded-lg shadow-md">
+                        <h3 class="text-xl font-semibold mb-4">Frontend Development</h3>
+                        <ul class="space-y-2">
+                            <li>React & Next.js</li>
+                            <li>TypeScript</li>
+                            <li>Tailwind CSS</li>
+                            <li>Responsive Design</li>
+                        </ul>
+                    </div>
+                    <div class="bg-background p-6 rounded-lg shadow-md">
+                        <h3 class="text-xl font-semibold mb-4">UI/UX Design</h3>
+                        <ul class="space-y-2">
+                            <li>Figma</li>
+                            <li>User Research</li>
+                            <li>Prototyping</li>
+                            <li>Design Systems</li>
+                        </ul>
+                    </div>
+                    <div class="bg-background p-6 rounded-lg shadow-md">
+                        <h3 class="text-xl font-semibold mb-4">Tools & Technologies</h3>
+                        <ul class="space-y-2">
+                            <li>Git & GitHub</li>
+                            <li>VS Code</li>
+                            <li>Webpack & Vite</li>
+                            <li>Jest & Testing Library</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="py-16">
+            <div class="container mx-auto px-4">
+                <h2 class="text-3xl font-bold text-center mb-12">Featured Projects</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Project 1 -->
+                    <div class="bg-background rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow">
+                        <div class="h-48 overflow-hidden">
+                            <img 
+                                src="https://placeholder-image-service.onrender.com/image/400x300?prompt=Modern%20e-commerce%20website%20interface%20with%20clean%20design%20and%20product%20showcase&id=86a89bef-3176-4e2b-927b-ec40d684cbb8" 
+                                alt="Modern e-commerce website interface with clean design and product showcase" 
+                                class="w-full h-full object-cover"
+                            />
+                        </div>
+                        <div class="p-6">
+                            <h3 class="text-xl font-semibold mb-2">E-commerce Platform</h3>
+                            <p class="text-muted-foreground mb-4">
+                                A modern e-commerce solution built with React, featuring shopping cart, user authentication, and payment processing.
+                            </p>
+                            <div class="flex space-x-2">
+                                <span class="bg-primary/10 text-primary text-sm px-3 py-1 rounded-full">React</span>
+                                <span class="bg-primary/10 text-primary text-sm px-3 py-1 rounded-full">Node.js</span>
+                                <span class="bg-primary/10 text-primary text-sm px-3 py-1 rounded-full">MongoDB</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="bg-background rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow">
+                        <div class="h-48 overflow-hidden">
+                            <img 
+                                src="https://placeholder-image-service.onrender.com/image/400x300?prompt=Task%20management%20dashboard%20with%20clean%20UI%20and%20visual%20analytics&id=86a89bef-3176-4e2b-927b-ec40d684cbb8" 
+                                alt="Task management dashboard with clean UI and visual analytics" 
+                                class="w-full h-full object-cover"
+                            />
+                        </div>
+                        <div class="p-6">
+                            <h3 class="text-xl font-semibold mb-2">Task Management App</h3>
+                            <p class="text-muted-foreground mb-4">
+                                A productivity application with drag-and-drop functionality, team collaboration, and progress tracking.
+                            </p>
+                            <div class="flex space-x-2">
+                                <span class="bg-primary/10 text-primary text-sm px-3 py-1 rounded-full">Vue.js</span>
+                                <span class="bg-primary/10 text-primary text-sm px-3 py-1 rounded-full">Firebase</span>
+                                <span class="bg-primary/10 text-primary text-sm px-3 py-1 rounded-full">Tailwind</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 3 -->
+                    <div class="bg-background rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow">
+                        <div class="h-48 overflow-hidden">
+                            <img 
+                                src="https://placeholder-image-service.onrender.com/image/400x300?prompt=Fitness%20tracking%20mobile%20app%20interface%20with%20workout%20stats%20and%20progress%20charts&id=86a89bef-3176-4e2b-927b-ec40d684cbb8" 
+                                alt="Fitness tracking mobile app interface with workout stats and progress charts" 
+                                class="w-full h-full object-cover"
+                            />
+                        </div>
+                        <div class="p-6">
+                            <h3 class="text-xl font-semibold mb-2">Fitness Tracker</h3>
+                            <p class="text-muted-foreground mb-4">
+                                A mobile-friendly fitness application that tracks workouts, nutrition, and provides personalized recommendations.
+                            </p>
+                            <div class="flex space-x-2">
+                                <span class="bg-primary/10 text-primary text-sm px-3 py-1 rounded-full">React Native</span>
+                                <span class="bg-primary/10 text-primary text-sm px-3 py-1 rounded-full">GraphQL</span>
+                                <span class="bg-primary/10 text-primary text-sm px-3 py-1 rounded-full">AWS</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="bg-muted py-16">
+            <div class="container mx-auto px-4">
+                <h2 class="text-3xl font-bold text-center mb-12">Get In Touch</h2>
+                <div class="max-w-md mx-auto bg-background p-8 rounded-lg shadow-md">
+                    <form class="space-y-6">
+                        <div>
+                            <label for="name" class="block text-sm font-medium mb-2">Name</label>
+                            <input 
+                                type="text" 
+                                id="name" 
+                                class="w-full px-4 py-2 border border-border rounded-md focus:outline-none focus:ring-2 focus:ring-primary" 
+                                placeholder="Your name"
+                            />
+                        </div>
+                        <div>
+                            <label for="email" class="block text-sm font-medium mb-2">Email</label>
+                            <input 
+                                type="email" 
+                                id="email" 
+                                class="w-full px-4 py-2 border border-border rounded-md focus:outline-none focus:ring-2 focus:ring-primary" 
+                                placeholder="Your email address"
+                            />
+                        </div>
+                        <div>
+                            <label for="message" class="block text-sm font-medium mb-2">Message</label>
+                            <textarea 
+                                id="message" 
+                                rows="4" 
+                                class="w-full px-4 py-2 border border-border rounded-md focus:outline-none focus:ring-2 focus:ring-primary" 
+                                placeholder="Your message"
+                            ></textarea>
+                        </div>
+                        <button 
+                            type="submit" 
+                            class="w-full bg-primary text-primary-foreground py-3 rounded-md font-medium hover:bg-primary/90 transition-colors"
+                        >
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-background border-t border-border py-8">
+        <div class="container mx-auto px-4 text-center">
+            <div class="flex justify-center space-x-6 mb-4">
+                <a href="#" class="text-muted-foreground hover:text-primary transition-colors">GitHub</a>
+                <a href="#" class="text-muted-foreground hover:text-primary transition-colors">LinkedIn</a>
+                <a href="#" class="text-muted-foreground hover:text-primary transition-colors">Twitter</a>
+            </div>
+            <p class="text-muted-foreground text-sm">© 2024 John Doe. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Simple form submission handler
+        document.querySelector('form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('Thank you for your message! I will get back to you soon.');
+            this.reset();
+        });
+    </script>
+</body>
+</html>
